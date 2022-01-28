@@ -43,18 +43,14 @@ for_obj <- function(schedule, trees, params = forester::params_default,
     cut <- schedule == t
     keep <- schedule > t
 
-    # stocking modified by survival rate to account for mortality
-    trees$ba[keep] <- sum(trees$ba_tree[keep] * trees$cumsurv[keep]) +
-      (trees$ba_tree[keep] * (1 - trees$cumsurv[keep]))
-    trees$bal[keep] <- bal(trees$dbh[keep],
-                           trees$ba_tree[keep] * trees$cumsurv[keep])
-
     # forester's costs and income based on cutting regime
     if(any(cut)) {
       lv[cut | keep] <- forester::stumpage(trees[cut | keep, ], params)
+      cut_vol <- forester::make_logs(trees[cut,]) %>%
+        group_by(tree) %>% summarize(vol_sum = sum(vol_ac)) %>%
+        full_join(trees[cut,], by = "tree")
       income <- income +
-        (theta + rho + gamma *
-           sum(forester::make_logs(trees[cut,])$vol_ac * trees$cumsurv[cut]) +
+        (theta + rho + gamma * sum(cut_vol$vol_sum * trees$cumsurv[cut]) +
            lambda * sum(lv[cut] * trees$tpa_tree[cut] * trees$cumsurv[cut])) /
         (1 + params$drate) ^ t
 
@@ -86,6 +82,14 @@ for_obj <- function(schedule, trees, params = forester::params_default,
       income <- income + theta / (1 + params$drate) ^ t
     }
 
+    if(!any(keep)) break
+
+    # stocking modified by survival rate to account for mortality
+    trees$ba[keep] <- sum(trees$ba_tree[keep] * trees$cumsurv[keep]) +
+      (trees$ba_tree[keep] * (1 - trees$cumsurv[keep]))
+    trees$bal[keep] <- bal(trees$dbh[keep],
+                           trees$ba_tree[keep] * trees$cumsurv[keep])
+
     # Grow to next timestep
     trees[keep,] <- data.frame(forester::grow(trees[keep,], params,
                                               models = models))
@@ -93,10 +97,12 @@ for_obj <- function(schedule, trees, params = forester::params_default,
   }
 
   # add exit value
-  lv[keep] <- forester::stumpage(trees[keep, ], params)
-  income <- income +
-    phi * sum(lv[keep] * trees$tpa_tree[keep] * trees$cumsurv[keep]) /
-    (1 + params$drate) ^ params$endyr
+  if(any(keep)) {
+    lv[keep] <- forester::stumpage(trees[keep, ], params)
+    income <- income +
+      phi * sum(lv[keep] * trees$tpa_tree[keep] * trees$cumsurv[keep]) /
+      (1 + params$drate) ^ params$endyr
+  }
 
   # return plot's per-acre NPV for forester
   return(income - costs)
