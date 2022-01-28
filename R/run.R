@@ -1,6 +1,7 @@
 library('forester')
 library('tidyverse')
 library("rgenoud")
+library("parallel")
 options(dplyr.summarise.inform=F) # quiets "friendly" warning from summarise()
 
 trees <- as_tibble(simtrees_sample)
@@ -20,3 +21,4 @@ source("R/landowner-objective.R")
 
 # landowner and forester should be able to have different discount rates!!!!!!!!!!!!!
 # (now they both use params$drate)
+best_comp_pcakage <- land_opt(treesgo, paramsg)
