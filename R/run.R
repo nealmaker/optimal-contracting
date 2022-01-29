@@ -8,6 +8,8 @@ trees <- as_tibble(simtrees_sample)
 treesgo <- trees[!is.na(trees$spp), ]
 paramsg <- params_default
 paramsg$endyr <- 30
+paramsg$drate <- .04 # forester's discount rate
+l_drate <- .03 # landowner's discount rate
 
 # for ranking trees
 spp_ranks <-
@@ -18,6 +20,7 @@ row.names(spp_ranks) <- levels(simtrees_sample$spp)
 source("R/forester-objective.R")
 source("R/forester-opt.R")
 source("R/landowner-objective.R")
+source("R/landowner-opt.R")
 
 # landowner and forester should be able to have different discount rates!!!!!!!!!!!!!
 # (now they both use params$drate)

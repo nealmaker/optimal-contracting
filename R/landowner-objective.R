@@ -42,28 +42,25 @@ land_obj <- function(for_comp, trees, params = forester::params_default,
     costs <- 0
     t <- 0
 
-    # for each step record terminal values of harvest trees, update ba and bal,
-    # and grow one step
     ##################### CANDIDATE FOR C++ LOOP? #######################################
     for(i in 1:steps) {
       cut <- schedule == t
       keep <- schedule > t
 
-      # forester's costs and income based on cutting regime
       if(any(cut)) {
         gross <- sum(forester::stumpage(treesg[cut,], params) *
                        treesg$tpa_tree[cut] * treesg$cumsurv[cut])
         cut_vol <- forester::make_logs(treesg[cut,]) %>%
           group_by(tree) %>% summarize(vol_sum = sum(vol_ac)) %>%
           full_join(treesg[cut,], by = "tree")
-        income <- income + gross / (1 + params$drate) ^ t
+        income <- income + gross / (1 + l_drate) ^ t
         costs <- costs +
           (theta + rho +
              gamma * sum(cut_vol$vol_sum * treesg$cumsurv[cut]) +
              lambda * gross) /
-          (1 + params$drate) ^ t
+          (1 + l_drate) ^ t
       } else { # no cutting
-        costs <- costs + theta / (1 + params$drate) ^ t
+        costs <- costs + theta / (1 + l_drate) ^ t
       }
 
       if(!any(keep)) break
@@ -84,8 +81,8 @@ land_obj <- function(for_comp, trees, params = forester::params_default,
     if(any(keep)) {
       lv <- sum(forester::stumpage(treesg[keep, ], params) *
         treesg$tpa_tree[keep] * treesg$cumsurv[keep])
-      costs <- costs + (phi * lv / (1 + params$drate) ^ params$endyr)
-      income <- income + (lv / (1 + params$drate) ^ params$endyr)
+      costs <- costs + (phi * lv / (1 + l_drate) ^ params$endyr)
+      income <- income + (lv / (1 + l_drate) ^ params$endyr)
     }
 
     # return plot's per-acre NPV for landowner
