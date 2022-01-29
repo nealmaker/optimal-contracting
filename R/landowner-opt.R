@@ -18,8 +18,14 @@
 #'   \code{phi}: proportion of exit value (ctv at end) paid to forester
 #' @export
 land_opt <- function(trees, params = forester::params_default, models = "w") {
-  cores <- parallel::detectCores() - 1
+  cores <- 11 #parallel::detectCores() - 1
   cl <- parallel::makeCluster(cores)
+  parallel::clusterExport(cl, varlist =
+                            c("for_obj", "for_opt", "land_obj", "spp_ranks",
+                              "treesgo", "paramsg", "l_drate"))
+  clusterEvalQ(cl, library("rgenoud"))
+  clusterEvalQ(cl, library("tidyverse"))
+  clusterEvalQ(cl, library("forester"))
   coefs <- genoud(land_obj,
                   nvars = 5,
                   max = TRUE,
@@ -38,7 +44,7 @@ land_opt <- function(trees, params = forester::params_default, models = "w") {
                   params = params,
                   models = models,
                   cluster = cl)$par
-  parallel::stopCluster(cl)\
+  parallel::stopCluster(cl)
   return(data.frame(coef = c("gamma", "lambda", "rho", "theta", "phi"),
                     value = coefs))
 }
