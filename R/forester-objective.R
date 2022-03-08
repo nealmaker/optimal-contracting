@@ -56,24 +56,27 @@ for_obj <- function(schedule, trees, params = forester::params_default,
 
       if(sum(keep) == 0) { # clearcut
         costs <- costs + 35 / (1 + params$drate) ^ t
-      } else if(abs(sum(trees$ba_tree[keep]) - 65) < # closest to b-line
-                abs(sum(trees$ba_tree[keep]) + min(trees$ba_tree[cut]) - 65) &
+      } else if(min(lv[cut]) >= max(lv[keep]) & # highgrade thin
+                abs(sum(trees$ba_tree[keep]) - 65) < # closest to b-line
+                abs(sum(trees$ba_tree[keep]) +
+                    trees$ba_tree[cut][which.min(lv[cut])] - 65) &
                 abs(sum(trees$ba_tree[keep]) - 65) <
-                abs(sum(trees$ba_tree[keep]) - min(trees$ba_tree[keep]) - 65)) {
-        if(min(lv[cut]) >= max(lv[keep])) { # highgrade thin
-          costs <- costs +
-            (14 + sum(trees$tpa_tree[cut] * trees$cumsurv[cut])) /
-            (1 + params$drate) ^ t
-        } else if(min(rank[cut]) >= max(rank[keep])) { # lowgrade thin
-          costs <- costs +
-            (14 + 1.5 * sum(trees$tpa_tree[cut] * trees$cumsurv[cut])) /
-            (1 + params$drate) ^ t
-        } else { # careful tending that happens to go to b-line
-          costs <- costs +
-            (70 + 2 * sum(trees$tpa_tree[cut] * trees$cumsurv[cut])) /
-            (1 + params$drate) ^ t
-        }
-      } else { # careful tending not to b-line
+                abs(sum(trees$ba_tree[keep]) -
+                    trees$ba_tree[keep][which.max(lv[keep])] - 65)) {
+        costs <- costs +
+          (14 + sum(trees$tpa_tree[cut] * trees$cumsurv[cut])) /
+          (1 + params$drate) ^ t
+      } else if(min(rank[cut]) >= max(rank[keep]) & # lowgrade thin
+                abs(sum(trees$ba_tree[keep]) - 65) < # closest to b-line
+                abs(sum(trees$ba_tree[keep]) +
+                    trees$ba_tree[cut][which.min(rank[cut])] - 65) &
+                abs(sum(trees$ba_tree[keep]) - 65) <
+                abs(sum(trees$ba_tree[keep]) -
+                    trees$ba_tree[keep][which.max(rank[keep])] - 65)) {
+        costs <- costs +
+          (14 + 1.5 * sum(trees$tpa_tree[cut] * trees$cumsurv[cut])) /
+          (1 + params$drate) ^ t
+      } else { # careful tending
         costs <- costs +
           (70 + 2 * sum(trees$tpa_tree[cut] * trees$cumsurv[cut])) /
           (1 + params$drate) ^ t

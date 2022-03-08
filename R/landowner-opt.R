@@ -39,7 +39,7 @@ land_opt <- function(trees, params = forester::params_default, models = "w") {
                   solution.tolerance = 2,
                   boundary.enforcement = 2,
                   data.type.int = FALSE,
-                  print.level = 1,
+                  print.level = 2,
                   trees = trees,
                   params = params,
                   models = models,
