@@ -24,13 +24,14 @@ land_opt <- function(trees, params = forester::params_default, models = "w") {
                             c("for_obj", "for_opt", "land_obj", "spp_ranks",
                               "treesgo", "paramsg", "l_drate"))
   clusterEvalQ(cl, library("rgenoud"))
-  clusterEvalQ(cl, library("tidyverse"))
+  clusterEvalQ(cl, library("dplyr"))
+  clusterEvalQ(cl, library("magrittr"))
   clusterEvalQ(cl, library("forester"))
   coefs <- genoud(land_obj,
                   nvars = 5,
                   max = TRUE,
-                  pop.size = 20,
-                  max.generations = 50,
+                  pop.size = 10,
+                  max.generations = 30,
                   wait.generations = 6,
                   hard.generation.limit = TRUE,
                   Domains = matrix(c(rep(0, 5),
