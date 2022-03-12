@@ -16,6 +16,11 @@ paramsg$endyr <- 40
 paramsg$drate <- .04 # forester's discount rate
 l_drate <- .03 # landowner's discount rate
 
+# #2 log prices from PBF averages
+paramsg$prices$mill_grade2 <-
+  c(470, 170, 220, 190, 400, 320, 370, 160, 490, 290, 400, 160, 290, 450, 220,
+    220, 350, 280, 160, 280, 350, 320, 340, 190, 170)
+
 # for ranking trees
 spp_ranks <-
   data.frame(value = c(.8, 1.2, 1.2, .8, 0, .8, 1, 1.2, 1.2, 1, 0, 1.2, .8, 2,
