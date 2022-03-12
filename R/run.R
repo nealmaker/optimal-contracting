@@ -1,11 +1,15 @@
+################################################################################
+plot_num <- 1
+################################################################################
 library('forester')
 library('tidyverse')
 library("rgenoud")
 library("parallel")
 options(dplyr.summarise.inform=F) # quiets "friendly" warning from summarise()
 
+load("dat-simready.rda")
+dat <- dat[dat$plot == unique(dat$plot)[plot_num],]
 trees <- as_tibble(simtrees_sample)
-treesgo <- trees[!is.na(trees$spp), ]
 paramsg <- params_default
 paramsg$steplength <- 10
 paramsg$endyr <- 40
@@ -23,4 +27,4 @@ source("R/forester-opt.R")
 source("R/landowner-objective.R")
 source("R/landowner-opt.R")
 
-best_comp_pcakage <- land_opt(treesgo, paramsg)
+best_comp_pcakage <- land_opt(dat, paramsg)
