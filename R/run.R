@@ -8,8 +8,9 @@ library("parallel")
 options(dplyr.summarise.inform=F) # quiets "friendly" warning from summarise()
 
 load("dat-simready.rda")
-treesgo <- dat[dat$plot == unique(dat$plot)[plot_num],]
+dat <- dat[dat$plot == unique(dat$plot)[plot_num],]
 trees <- as_tibble(simtrees_sample)
+treesgo <- trees[!is.na(trees$spp),]
 paramsg <- params_default
 paramsg$steplength <- 10
 paramsg$endyr <- 40
