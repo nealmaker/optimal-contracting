@@ -4,13 +4,18 @@ plot_num <- 1
 library('forester')
 library('tidyverse')
 library("rgenoud")
+library("GA")
+library("GenSA")
 library("parallel")
 options(dplyr.summarise.inform=F) # quiets "friendly" warning from summarise()
 
 load("dat-simready.rda")
 dat <- dat[dat$plot == unique(dat$plot)[plot_num],]
-trees <- as_tibble(simtrees_sample)
-treesgo <- trees[!is.na(trees$spp),]
+dat$dbh <- as.double(dat$dbh)
+dat$cr <- as.double(dat$cr)
+class(dat) <- c("tbl_df", "tbl", "data.frame")
+# trees <- as_tibble(simtrees_sample)
+# treesgo <- trees[!is.na(trees$spp),]
 paramsg <- params_default
 paramsg$steplength <- 10
 paramsg$endyr <- 40
@@ -32,5 +37,9 @@ source("R/forester-objective.R")
 source("R/forester-opt.R")
 source("R/landowner-objective.R")
 source("R/landowner-opt.R")
+source("R/landowner-opt-genoud.R")
+source("R/landowner-opt-ga.R")
+source("R/landowner-opt-sa.R")
 
-best_comp_pcakage <- land_opt(treesgo, paramsg)
+system.time(out_sa <- land_opt(dat, paramsg, algo = "sa"))
+system.time(out_ga <- land_opt(dat, paramsg, algo = "ga"))

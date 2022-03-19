@@ -5,6 +5,7 @@ dat <- read.csv("data/psc-hw-data.csv")
 dat <- dat %>%
   mutate(stand = 1,
          tree = 1:nrow(dat),
+         dbh = as.double(dbh),
          logs = as.character(logs),
          forest_type = "Northern hardwood",
          site_class = 5,
