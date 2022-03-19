@@ -1,7 +1,7 @@
-#' Landowner's NPV for optimizer
+#' Landowner's (negative) NPV for optimizer
 #'
-#' Calculates net present value of a single plot from a given forester
-#' compensation package
+#' Calculates net present value of multiple plots from a given forester
+#' compensation package & switches sign for minimization problems.
 #'
 #' @param for_comp a numeric vector of coefficients that correspond to the
 #'   forester's compensation package. Ordered gamma, lambda, rho, theta, phi
@@ -88,5 +88,5 @@ land_obj <- function(for_comp, trees, params = forester::params_default,
     # return plot's per-acre NPV for landowner
     return(income - costs)
   })
-  return(mean(out))
+  return(-mean(out))
 }

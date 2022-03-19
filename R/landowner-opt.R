@@ -8,44 +8,16 @@
 #'   simulation.
 #' @param models which submodels to use in \code{forester::growth}. Defaults to
 #'   Weiskittel's
+#' @param algo which optimization algorithm to use. One of 'genoud', 'ga', 'sa',
+#'   or 'pso'.
 #'
-#' @return returns a data frame of optimal coefficients for the forester's
-#'   compensation package, which includes:
-#'   \code{gamma}: price paid to forester per cord harvested
-#'   \code{lambda}: proportion of timber revenue paid to forester
-#'   \code{rho}: payment to forester per harvested acre in each timestep
-#'   \code{theta}: fixed per acre payment to forester in each timestep
-#'   \code{phi}: proportion of exit value (ctv at end) paid to forester
+#' @return returns the optimizer's output; varies based on algorithm used.
 #' @export
-land_opt <- function(trees, params = forester::params_default, models = "w") {
-  cores <- 11 #parallel::detectCores() - 1
-  cl <- parallel::makeCluster(cores)
-  parallel::clusterExport(cl, varlist =
-                            c("for_obj", "for_opt", "land_obj", "spp_ranks",
-                              "treesgo", "paramsg", "l_drate"))
-  clusterEvalQ(cl, library("rgenoud"))
-  clusterEvalQ(cl, library("dplyr"))
-  clusterEvalQ(cl, library("magrittr"))
-  clusterEvalQ(cl, library("forester"))
-  coefs <- genoud(land_obj,
-                  nvars = 5,
-                  max = TRUE,
-                  pop.size = 10,
-                  max.generations = 30,
-                  wait.generations = 6,
-                  hard.generation.limit = TRUE,
-                  Domains = matrix(c(rep(0, 5),
-                                     c(50, 1, 300, 300, 1)),
-                                   ncol = 2),
-                  solution.tolerance = 2,
-                  boundary.enforcement = 2,
-                  data.type.int = FALSE,
-                  print.level = 2,
-                  trees = trees,
-                  params = params,
-                  models = models,
-                  cluster = cl)$par
-  parallel::stopCluster(cl)
-  return(data.frame(coef = c("gamma", "lambda", "rho", "theta", "phi"),
-                    value = coefs))
+land_opt <- function(trees, params = forester::params_default, models = "w",
+                     algo = "genoud") {
+  if(algo == "genoud") land_opt_genoud(trees, params, models)
+  else if(algo == "ga") land_opt_ga(trees, params, models)
+  else if(algo == "sa") land_opt_sa(trees, params, models)
+  else if(algo == "pso") land_opt_pso(trees, params, models)
+  else stop(paste("No optimization algorithm of type", algo, "configured."))
 }

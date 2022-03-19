@@ -5,6 +5,8 @@ dat <- read.csv("data/psc-hw-data.csv")
 dat <- dat %>%
   mutate(stand = 1,
          tree = 1:nrow(dat),
+         dbh = as.double(dbh),
+         cr = as.double(cr),
          logs = as.character(logs),
          forest_type = "Northern hardwood",
          site_class = 5,
@@ -31,6 +33,6 @@ dat$ht <- predict(ht_model_op, newdata = dat)
 
 dat <- select(dat, stand, plot, tree, spp, dbh, cr, logs, ba, bal, forest_type,
               site_class, lat, lon, elev, ht, tpa_tree, ba_tree)
-class(dat) <- c("tbl_df", "tbl", "data.frame", "simready")
+class(dat) <- c("tbl_df", "tbl", "data.frame")
 
 save(dat, file = "dat-simready.rda")
