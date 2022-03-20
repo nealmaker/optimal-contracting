@@ -1,0 +1,1316 @@
+starting worker pid=14252 on localhost:11069 at 08:41:05.062
+starting worker pid=4592 on localhost:11069 at 08:41:05.068
+starting worker pid=5532 on localhost:11069 at 08:41:05.077
+starting worker pid=9840 on localhost:11069 at 08:41:05.085
+starting worker pid=2800 on localhost:11069 at 08:41:05.102
+starting worker pid=6296 on localhost:11069 at 08:41:05.123
+starting worker pid=13896 on localhost:11069 at 08:41:05.132
+starting worker pid=5268 on localhost:11069 at 08:41:05.142
+starting worker pid=8744 on localhost:11069 at 08:41:05.148
+starting worker pid=10436 on localhost:11069 at 08:41:05.156
+starting worker pid=12772 on localhost:11069 at 08:41:05.168
+starting worker pid=8476 on localhost:11069 at 08:41:05.171
+starting worker pid=11632 on localhost:11069 at 08:41:05.180
+starting worker pid=11728 on localhost:11069 at 08:41:05.185
+starting worker pid=6024 on localhost:11069 at 08:41:05.190
+starting worker pid=12072 on localhost:11069 at 08:41:05.628
+starting worker pid=13384 on localhost:11069 at 08:41:05.635
+starting worker pid=12368 on localhost:11069 at 08:41:05.641
+starting worker pid=5440 on localhost:11069 at 08:41:06.012
+starting worker pid=7524 on localhost:11069 at 08:41:06.022
+starting worker pid=12376 on localhost:11069 at 08:41:06.032
+starting worker pid=1468 on localhost:11069 at 08:41:06.041
+starting worker pid=12296 on localhost:11069 at 08:41:06.048
+starting worker pid=4068 on localhost:11069 at 08:41:06.059
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked
+Attaching package: 'dplyr'
+
+lter, lag
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Warning messages:
+Error in unserialize(node$con) : error reading from cError in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCa2: package 'rgenoud' was built under R version 4.0.2 
+Warning messages:
+Warning messa1: package 'dplyr' was built under R version 4.0.2 
+lls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+ze(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+1: package 'dplyr' In addition: ges:
+ersion 4.0.2 
+
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+1: package 'dplyr' was built under R version 4.0.2 
+
+2: package 'rgenoud' was built under R version 4.0.2 
+ding from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Warning messages:
+was built under R version 4.0.2 
+In addition: 2: package 'rgenoud' was built under R version 4.0.2 
+s: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+1: package 'dplyr' was built under R version 4.0.2 
+onWarning messages:
+onymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: In addition: ted
+ze(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+
+2: package 'rgenoud' was built under R version 4.0.2 
+1: package 'dplyr' was built under R version 4.0.2 
+onnection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Warning messages:
+Execution halError in unserialize(node$con) : error reaIn addition: plyr' was built under R version 4.0.2 
+ch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unseriali2: package 'rgenoud' was built under R version 4.0.2 
+nonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Warning messaError in unserialize(node$con) : error reading from cIn addition: lls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+d' was built under R version 4.0.2 WaError in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize2:Warning messages:
+was built under R version 4.0.2 
+1: package 'dplyr' was built under R version 4.0.2 
+1: package 'dplyr' 2: package 'rgenoud' was built under R version 4.0.2 
+onymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unseriali2: package 'rgenoud' was built under R version 4.0.2 
+nonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+1: package 'd1: package 'dplyr' was built under R verExecution halted
+d' was built under R version 4.0.2 
+ch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halWarning messages:
+nder R version 4.0.2 
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+
+In addition: ted
+ was built under R version 4.0.2 
+1: package 'dplyr' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 2: package 'rgenoud' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+nection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+In addition: Execution halted
+Warning messages:
+1: package 'dplyr' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+Execution halted
+starting worker pid=9620 on localhost:11069 at 08:42:21.884
+starting worker pid=3204 on localhost:11069 at 08:42:21.904
+starting worker pid=4616 on localhost:11069 at 08:42:21.910
+starting worker pid=14216 on localhost:11069 at 08:42:21.914
+starting worker pid=9168 on localhost:11069 at 08:42:21.932
+starting worker pid=12152 on localhost:11069 at 08:42:21.950
+starting worker pid=11968 on localhost:11069 at 08:42:21.960
+starting worker pid=8784 on localhost:11069 at 08:42:21.972
+starting worker pid=9456 on localhost:11069 at 08:42:22.007
+starting worker pid=4768 on localhost:11069 at 08:42:22.010
+starting worker pid=8908 on localhost:11069 at 08:42:22.043
+starting worker pid=7244 on localhost:11069 at 08:42:22.049
+starting worker pid=11484 on localhost:11069 at 08:42:22.049
+starting worker pid=6488 on localhost:11069 at 08:42:22.127
+starting worker pid=4192 on localhost:11069 at 08:42:22.136
+starting worker pid=1984 on localhost:11069 at 08:42:22.154
+starting worker pid=10356 on localhost:11069 at 08:42:22.168
+starting worker pid=6640 on localhost:11069 at 08:42:22.176
+starting worker pid=9232 on localhost:11069 at 08:42:22.186
+starting worker pid=556 on localhost:11069 at 08:42:22.191
+starting worker pid=10316 on localhost:11069 at 08:42:22.215
+starting worker pid=8540 on localhost:11069 at 08:42:22.219
+starting worker pid=7380 on localhost:11069 at 08:42:22.231
+starting worker pid=8216 on localhost:11069 at 08:42:22.253
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+rom 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'forester'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'forester'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+
+Attaching package: 'forester'
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+
+Attaching package: 'forester'
+
+The following object is masked from 'package:stats':
+
+    simulate
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+
+##  rgenoud (Version 5.8-3.0, Build Date: 2019-01-22)
+##  See http://sekhon.berkeley.edu/rgenoud for additional documentation.
+##  Please cite software as:
+##   Walter Mebane, Jr. and Jasjeet S. Sekhon. 2011.
+##   ``Genetic Optimization Using Derivatives: The rgenoud package for R.''
+##   Journal of Statistical Software, 42(11): 1-26. 
+##
+

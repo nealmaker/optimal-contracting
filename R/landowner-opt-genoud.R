@@ -29,7 +29,7 @@ land_opt_genoud <- function(trees, params = forester::params_default, models = "
   clusterEvalQ(cl, library("forester"))
   out <- genoud(land_obj,
                   nvars = 5,
-                  max = FALSE, # b/c land_obj is negative now
+                  max = TRUE,
                   pop.size = 10,
                   max.generations = 30,
                   wait.generations = 6,

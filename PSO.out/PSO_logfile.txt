@@ -1,0 +1,35 @@
+================================================================================
+hydroPSO version  :  0.5-1  
+hydroPSO Built    :  R 4.0.5; ; 2022-03-15 06:50:12 UTC; windows  
+R version         :  R version 4.0.1 (2020-06-06)  
+Platform          :  x86_64-w64-mingw32  
+================================================================================
+Starting Time     : Sun Mar 20 08:41:10 2022 
+================================================================================
+Objective Function: land_obj 
+MinMax            : max 
+Dimension         : 5 
+Nmbr of Particles : 40 
+Max Iterations    : 1000 
+Method            : spso2011 
+Topology          : random 
+K                 : 3 
+iter.ini          : 0 
+Boundary wall     : absorbing2011 
+normalise         : FALSE 
+Xini.type         : random 
+Vini.type         : random2011 
+Best update method: sync 
+Random update     : TRUE 
+c1                : 1.19314718055995 
+c2                : 1.19314718055995 
+use.IW            : TRUE 
+IW.w              : 0.721347520444482 
+lambda            : 1 
+use.RG            : FALSE 
+maxfn             : Inf 
+abstol            : Inf 
+reltol            : 1.49011611938477e-08 
+parallel          : parallelWin 
+par.nnodes        : 24 
+par.pkgs          : dplyr forester magrittr rgenoud 

@@ -1,4 +1,4 @@
-#' Landowner's optimizer sa
+#' Landowner's optimizer pso
 #'
 #' Determines forester compensation package that maximizes landowner's profit
 #'
@@ -17,16 +17,14 @@
 #'   \code{theta}: fixed per acre payment to forester in each timestep
 #'   \code{phi}: proportion of exit value (ctv at end) paid to forester
 #' @export
-land_opt_sa <- function(trees, params = forester::params_default, models = "w") {
-  out <- GenSA(fn = function(for_comp, trees, params, models) {
-    -land_obj(for_comp, trees, params, models)},
-               lower = rep(0, 5),
-               upper = c(50, 1, 300, 300, 1),
-               trees = trees,
-               params = params,
-               models = models,
-               control = list(max.call = 1000,
-                              verbose = TRUE,
-                              simple.function = FALSE)) # only a few local minima?
+land_opt_pso <- function(trees, params = forester::params_default, models = "w") {
+  out <- hydroPSO(fn = land_obj,
+                trees = trees,
+                params = params,
+                models = models,
+                lower = rep(0, 5),
+                upper = c(50, 1, 300, 300, 1),
+                control = list(MinMax = 'max',
+                               parallel = 'none')) #need par.pkgs to load packages onto cores, not sure how to load objects & don't want to figure it out.
   return(out)
 }

@@ -88,5 +88,5 @@ land_obj <- function(for_comp, trees, params = forester::params_default,
     # return plot's per-acre NPV for landowner
     return(income - costs)
   })
-  return(-mean(out))
+  return(mean(out))
 }
