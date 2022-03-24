@@ -26,8 +26,8 @@ land_opt_ga <- function(trees, params = forester::params_default, models = "w") 
                 lower = rep(0, 5),
                 upper = c(50, 1, 300, 300, 1),
                 popSize = 50,
-                maxiter = 200,
-                run = 30, # num generation w/o improvement before quitting
+                maxiter = 500,
+                run = 500, # num generation w/o improvement before quitting
                 optim = F, # local search?
                 parallel = TRUE,
                 monitor = T)

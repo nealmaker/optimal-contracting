@@ -1,5 +1,5 @@
 ################################################################################
-plot_num <- 1
+plot_num <- 2
 ################################################################################
 library('forester')
 library('tidyverse')
@@ -43,6 +43,10 @@ source("R/landowner-opt-ga.R")
 source("R/landowner-opt-sa.R")
 source("R/landowner-opt-pso.R")
 
-system.time(out_sa <- land_opt(dat, paramsg, algo = "sa"))
+system.time(out_ga <- land_opt(dat, paramsg, algo = "ga"))
 system.time(out_ga2 <- land_opt(dat, paramsg, algo = "ga"))
-system.time(out_pso <- land_opt(dat, paramsg, algo = "pso"))
+system.time(out_ga3 <- land_opt(dat, paramsg, algo = "ga"))
+system.time(out_ga4 <- land_opt(dat, paramsg, algo = "ga"))
+system.time(out_galocal <- land_opt(dat, paramsg, algo = "ga"))
+system.time(out_ga5 <- land_opt(dat, paramsg, algo = "ga"))
+system.time(out_ga6 <- land_opt(dat, paramsg, algo = "ga"))

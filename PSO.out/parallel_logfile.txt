@@ -1314,3 +1314,86 @@ The following object is masked from 'package:stats':
 ##   Journal of Statistical Software, 42(11): 1-26. 
 ##
 
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Warning messages:
+e(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: ges:
+In addition: rialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+1: package 'dplyr' was built under R version 4.0.2 
+Error in unserializ2: package 'rgenoud' was built under R version 4.0.2 
+onymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Warning messages:
+1: package 'dplyr' was built underError in unserializ2: package 'rgenoud' was built under R version 4.0.2 
+onymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+1: package 'dplyr' was built under R version 4.0.2 
+
+In addition: genoud' was built under R version 4.0.2 
+1: package 'dplyr' was built under R version 4.0.2 
+
+Execution halted
+2: package 'rgenoud' was built under R version 4.0.2 
+Execution halted
+ze(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Warning messages:EError in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserializeI1: package 'dplyr' was built under R version 4.0.2 
+In addition: 2: package 'rgenoud' was built under R version 4.0.2 
+In addition: ges:
+Warning messages:
+1: package 'dplyr' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 Execution halted
+<Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+2: package 'rgenoud' was built under R version 4.0.2 
+In addition: plyr' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+nection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+Warning messages:
+e(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+1: package 'dWarning messages:
+er R version 4.0.2 
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+1: package 'dplyr' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+1: package 'dplyr' was built under R version 4.0.2 
+
+nection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+2: package 'rgenoud' was built under R version 4.0.2 
+nection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: ted
+ze(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halIn ad1: package 'dplyr' was built under R version 4.0.2 
+Execution halWarniWarning messages:
+ built under R version 4.0.2 
+1: package 'dplyr' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+nection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+2: package 'rgenoud' was built under R version 4.0.2 
+Error in unserialize(node$con) : error reading from conError in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryIn addition: Data -> recvData.SOCKnode -> unserialize
+Execution halted
+Warning messaExecutExecution halted
+Warning messages:
+was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+1: package 'dplyr' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+2: package 'rgenoud' was built under R version 4.0.2 
+Execution halted
+Execution halted
+Execution halted
