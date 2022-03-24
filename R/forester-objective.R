@@ -22,6 +22,8 @@
 #' @export
 for_obj <- function(schedule, trees, params = forester::params_default,
                     models = "w", gamma, lambda, rho, theta, phi) {
+  schedule <- floor(schedule) # allows use of continuous differential evolution algos
+  # Add 1 to upper box constraint if using continuous solver.
   schedule <- schedule * params$steplength # TO ALLOW INTEGER PROGRAMMING ------
   steps <- params$endyr / params$steplength
   trees$cumsurv <- 1 # cumulative survival rate starts at 100%
@@ -108,5 +110,5 @@ for_obj <- function(schedule, trees, params = forester::params_default,
   }
 
   # return plot's per-acre NPV for forester
-  return(income - costs)
+  return(income - costs) # ONLY NEGATIVE FOR DE!!!
 }

@@ -7,6 +7,8 @@ library("rgenoud")
 library("GA")
 library("GenSA")
 library("hydroPSO")
+library("DEoptim")
+library("DEoptimR")
 library("parallel")
 options(dplyr.summarise.inform=F) # quiets "friendly" warning from summarise()
 
@@ -43,10 +45,12 @@ source("R/landowner-opt-ga.R")
 source("R/landowner-opt-sa.R")
 source("R/landowner-opt-pso.R")
 
-system.time(out_ga <- land_opt(dat, paramsg, algo = "ga"))
-system.time(out_ga2 <- land_opt(dat, paramsg, algo = "ga"))
-system.time(out_ga3 <- land_opt(dat, paramsg, algo = "ga"))
-system.time(out_ga4 <- land_opt(dat, paramsg, algo = "ga"))
-system.time(out_galocal <- land_opt(dat, paramsg, algo = "ga"))
-system.time(out_ga5 <- land_opt(dat, paramsg, algo = "ga"))
-system.time(out_ga6 <- land_opt(dat, paramsg, algo = "ga"))
+out <- land_opt(dat, paramsg, algo = "ga")
+
+# testing Forester's Optimizer
+# ptemp <- c(3, .037, 22.6, 17.8, .068)
+#
+# system.time(out_genoud <- for_opt(dat, paramsg, "w", ptemp[[1]], ptemp[[2]],
+#                                   ptemp[[3]], ptemp[[4]], ptemp[[5]]))
+# system.time(out_de <- for_opt_de(dat, paramsg, "w", ptemp[[1]], ptemp[[2]],
+#                                  ptemp[[3]], ptemp[[4]], ptemp[[5]]))
