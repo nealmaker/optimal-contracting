@@ -66,3 +66,31 @@ new$tree <- (max(dat$tree) + 1):(max(dat$tree) + nrow(new))
 dat <- rbind(dat, new)
 
 save(dat, file = "dat-simready.rda")
+
+################################################################################
+## Pine data from Franklin Falls
+################################################################################
+load("../franklin-falls/data/rda/ff-trees-fixed.rda")
+
+temp <- ff_fixed %>% group_by(plot) %>%
+  summarize(pct_pine = sum(spp %in% c("white pine"))/n()) %>%
+  arrange(desc(pct_pine))
+View(filter(ff_fixed, plot %in% temp$plot[1:20]))
+# 10_9: 3 wp 1 rp 1 sm well differentiated; 2_43: 2 wp, 2 fir, 1 sm;
+# 10_13: 2 wp, 3 fir;
+
+new <- filter(ff_fixed, plot %in% c("10_9", "2_43", "10_13"))
+
+load("dat-simready.rda")
+new <- select(new, names(dat))
+new <- new %>% mutate(plot = case_when(plot == "10_9" ~ 7,
+                                       plot == "2_43" ~ 8,
+                                       TRUE ~ 9),
+                      stand = 3) %>%
+  arrange(plot)
+new$tree <- (max(dat$tree) + 1):(max(dat$tree) + nrow(new))
+
+dat <- rbind(dat, new)
+
+save(dat, file = "dat-simready.rda")
+
